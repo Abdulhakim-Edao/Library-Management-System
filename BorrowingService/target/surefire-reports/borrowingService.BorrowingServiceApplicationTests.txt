@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: borrowingService.BorrowingServiceApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 10.248 s <<< FAILURE! - in borrowingService.BorrowingServiceApplicationTests
+contextLoads  Time elapsed: 0.02 s  <<< ERROR!
+java.lang.NoClassDefFoundError: org/springframework/cloud/context/named/NamedContextFactory$Specification
+Caused by: java.lang.ClassNotFoundException: org.springframework.cloud.context.named.NamedContextFactory$Specification
+
